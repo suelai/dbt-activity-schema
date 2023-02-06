@@ -20,6 +20,5 @@
         {{ activity_schema.activity_occurrence() }}
         
         from {{ cte_name }}
-        order by ts asc
     )
 {% endmacro %}
